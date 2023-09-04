@@ -5,7 +5,7 @@ app = Flask('')
 
 @app.route('/')
 def main():
-    return 'I'm alive!'
+    return '@wauv on discord'
 
 def run():
     app.run(host="0.0.0.0", port=8080)
