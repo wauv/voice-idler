@@ -16,8 +16,8 @@ wauv = commands.Bot(command_prefix="-",
                     intents=intents,
                     help_command=None)
 
-GUILD_ID = 1144359542231138434
-CHANNEL_ID = 1144365918391124009
+GUILD_ID = PASTE_YOUR_GUILD_ID
+CHANNEL_ID = PASTE_YOUR_CHANNEL_ID
 
 
 @wauv.event
