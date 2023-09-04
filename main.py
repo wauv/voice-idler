@@ -5,7 +5,7 @@ os.system('pip install discord')
 import discord
 from discord.ext import commands
 
-token = os.environ['token']
+token = os.environ['token']   # Enter token in secrets
 
 intents = discord.Intents.default()
 intents.members = True
